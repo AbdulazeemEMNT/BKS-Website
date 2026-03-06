@@ -36,7 +36,7 @@ export function Footer() {
                     <p className="text-sm text-secondary/70 leading-relaxed">
                         Insights on leadership and communication, delivered to your inbox.
                     </p>
-                    <form className="flex gap-2" onSubmit={(e) => e.preventDefault()}>
+                    <form className="flex gap-2" action={() => { }}>
                         <input
                             type="email"
                             placeholder="Email address"

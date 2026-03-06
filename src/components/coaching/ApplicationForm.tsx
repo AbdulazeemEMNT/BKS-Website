@@ -38,7 +38,7 @@ export function ApplicationForm() {
                             Apply for Coaching
                         </h3>
 
-                        <form className="space-y-6 relative z-10" onSubmit={(e) => e.preventDefault()}>
+                        <form className="space-y-6 relative z-10" action={() => { }}>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 <div className="space-y-2">
                                     <label className="text-xs uppercase tracking-widest text-secondary/70 font-semibold">Name</label>
